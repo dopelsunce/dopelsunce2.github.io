@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "About This Blog"
+comments: true
 date:   2017-04-29 21:25:00 -0600
+keywords: "about"
+description: "First blog post"
 categories: about
 ---
 Hi, I am a junior student in the International School of Software, Wuhan University, currently majoring in SE. I am on the road of becoming a full stack web developer.
