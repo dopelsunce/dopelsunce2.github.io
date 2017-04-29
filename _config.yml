@@ -1,0 +1,58 @@
+
+# SEO settings
+title: "Hay"
+title2: "stack" # default: ""
+description: "My personnal blog. Using heiswayi's thinkspace theme"
+keywords: "front-end, web develop, fullstack, blog"
+url: https://dopelsunce.github.io # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+repo: https://github.com/dopelsunce/dopelsunce.github.io
+disqus_shortname: "hnbloggithub"
+twitter_username: "sosccc1"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Dopel Sun"
+  job      : "Software Engineer"
+  bio      : "Forward to fullstack web developer."
+  thumb    : /images/author.jpg
+  email    : sosccc1@gmail.com
+  url      : https://dopelsunce.github.io
+  github   : https://github.com/dopelsunce/dopelsunce.github.io
+  twitter  : http://twitter.com/sosccc1
+  # facebook : https://www.facebook.com/heiswayi.nrird
+  # linkedin : http://linkedin.com/in/nrird
+
+# social settings
+og_locale: "zh_CN"
+twitter_card: "summary_large_image"
+twitter_site: "@sosccc1"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
