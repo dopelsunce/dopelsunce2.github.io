@@ -9,7 +9,7 @@ baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 repo: https://github.com/dopelsunce/dopelsunce.github.io
-disqus_shortname: "hnbloggithub"
+disqus_shortname: "dopelsunce"
 twitter_username: "sosccc1"
 comments: true
 
@@ -29,8 +29,8 @@ sass:
 # Author settings
 author:
   name     : "Dopel Sun"
-  job      : "Software Engineer"
-  bio      : "Forward to fullstack web developer."
+  job      : "Student from ISS, Wuhan University"
+  bio      : "Looking forward to becoming a fullstack web developer."
   thumb    : /images/author.jpg
   email    : sosccc1@gmail.com
   url      : https://dopelsunce.github.io
